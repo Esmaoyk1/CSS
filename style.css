@@ -1,0 +1,67 @@
+h1{
+    color: #FAE8E0;
+    background-color: #EF7C8E;
+}
+
+body{
+    background-color: #FAE8E0;
+}
+
+div{
+    border: 3px solid #D8A7B1;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #EED6D3;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+th{
+    height: 30px;
+}
+td{
+    height: 20px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #B9B7BD;
+}
+
+
+input[type = text] , input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 3px;
+    background-color: #EEEDE7;
+}
+
+input[type = text]:focus, input[type="password"]:focus{
+    background-color: #D3BBDD;
+}
+
+.myClass{
+    background-color: #D3BBDD;
+    size: 12px;
+    word-spacing: 2;
+    color: white;
+    padding: 30px;
+    border: 2px dotted black;
+    border-radius: 10px;
+}
+
+#paragraf{
+    color: #C8F4F9;
+    background-color: #C26DBC;
+}
